@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #f8f1c2, #f6bb74);
+  text-align: center;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #800000;
+}
+
+.gallery {
+  padding: 2rem 1rem;
+  background-color:#f8f1c2;
+}
+
+.gallery h2 {
+  margin: 1.5rem 0 0.5rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.gallery-img {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+/* School Info Section */
+.school-info {
+  padding: 2rem;
+  background-color: #f0f8ff;
+}
+
+.school-info h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #004080;
+}
+
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.info-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow-x: auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.info-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-card th,
+.info-card td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.info-card th {
+  background-color: #004080;
+  color: white;
+}
+
+.note {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note ol {
+  margin-left: 1.5rem;
+}
+
+.modified {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 2rem;
+}
